@@ -13,7 +13,16 @@ class ExcelView: AbstractXlsxView() {
 
         val sheet = workbook?.createSheet()
         val header = sheet?.createRow(0)
-        header?.createCell(0)?.setCellValue(1.0)
+        header?.createCell(0)?.setCellValue("ID")
+        header?.createCell(1)?.setCellValue("Name")
+        header?.createCell(2)?.setCellValue("Average Score")
+
+        allStudents.forEachIndexed { index, student ->
+            val row = sheet?.createRow(index + 1)
+            row?.createCell(0)?.setCellValue(student.id.toString())
+            row?.createCell(1)?.setCellValue(student.name)
+            row?.createCell(2)?.setCellValue(student.averageScore)
+        }
 
 
     }

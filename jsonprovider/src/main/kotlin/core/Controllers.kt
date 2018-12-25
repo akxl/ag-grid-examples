@@ -49,7 +49,7 @@ class StudentController {
 
 }
 
-private val allStudents = listOf(
+val allStudents = listOf(
             Student(1, "John Richardson", 53.6),
             Student(2, "Emily Smith", 89.6),
             Student(3, "Thomas Boyle", 30.5),
