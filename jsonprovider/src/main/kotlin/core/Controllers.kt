@@ -60,7 +60,7 @@ val allStudents = listOf(
 // Excel file exporter taken from here: https://aboullaite.me/spring-boot-excel-csv-and-pdf-view-example/
 // and here: https://github.com/aboullaite/SpringBoot-Excel-Csv/tree/master/src/main/java/me/aboullaite
 
-
+// TODO: investigate: this endpoint does nothing. If you point your browser to an invalid url, you will get your Excel file anyway. Possible clue/alternative: https://stackoverflow.com/questions/5673260/downloading-a-file-from-spring-controllers
 @Controller
 class ExportController {
     @GetMapping("/download")

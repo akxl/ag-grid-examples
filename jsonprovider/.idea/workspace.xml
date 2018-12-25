@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1fa21fe2-4a5a-4271-835e-d3e7bbe23fb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -87,8 +86,8 @@
         <counts>
           <entry key="Groovy" value="819" />
           <entry key="HTML" value="195" />
-          <entry key="Kotlin" value="2478" />
-          <entry key="PLAIN_TEXT" value="86" />
+          <entry key="Kotlin" value="2488" />
+          <entry key="PLAIN_TEXT" value="243" />
         </counts>
       </usages-collector>
     </session>
@@ -110,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/core/Controllers.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="-530">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="e#14#1248#0" expanded="true" />
               </folding>
@@ -131,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="495">
               <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
@@ -757,7 +756,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545761515557" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545761664802" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -862,7 +861,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545760310312</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some spring magic to make excel files. the file just seems to download when you enter an invalid url. the made page needs to be explicitly entered e.g. localhost:8080/index.html">
+      <created>1545761592812</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545761592812</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -883,7 +889,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" sideWeight="0.501634" side_tool="true" weight="0.24945295" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.24945295" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.24945295" />
       <window_info id="Structure" order="1" sideWeight="0.5008157" side_tool="true" visible="true" weight="0.24945295" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" weight="0.3286334" />
@@ -892,7 +898,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3274918" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32858709" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32858709" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -915,7 +921,8 @@
     <MESSAGE value="adding index page" />
     <MESSAGE value="some spring magic to make excel files" />
     <MESSAGE value="some spring magic to make excel files with the endpoint /download" />
-    <option name="LAST_COMMIT_MESSAGE" value="some spring magic to make excel files with the endpoint /download" />
+    <MESSAGE value="some spring magic to make excel files. the file just seems to download when you enter an invalid url. the made page needs to be explicitly entered e.g. localhost:8080/index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="some spring magic to make excel files. the file just seems to download when you enter an invalid url. the made page needs to be explicitly entered e.g. localhost:8080/index.html" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/4.0.0/dd39484826d07395475a5698576f0741f1dccf2f/poi-4.0.0-sources.jar!/org/apache/poi/ss/usermodel/Workbook.java">
@@ -944,7 +951,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="495">
           <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
@@ -961,8 +968,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/core/Controllers.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="-530">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="e#14#1248#0" expanded="true" />
           </folding>
